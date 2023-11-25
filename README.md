@@ -13,11 +13,11 @@
 
 ### Menjalankan MySQL Server
 #### Untuk menjalankan MySQL Server dari menu XAMPP Contol.
-![gambar](web/xampp.png)
+![image](https://github.com/yudhapurnama/Lab8Web/assets/115516505/f35a61b4-3ecb-4d8c-adb7-d304db3a09d2)
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 #### Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 ### Membuat Database: Studi Kasus Data Barang
-![gambar](web/database.png)
+<img width="621" alt="database" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/9842249e-e19a-417d-8315-26fdbd33a072">
 ### Membuat Database
 ```python
 CREATE DATABASE latihan1;
@@ -34,7 +34,7 @@ CREATE TABLE data_barang (
     stok int(4)
 );
 ```
-![gambar](web/shell2.png)
+<img width="960" alt="shell2" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/78df4039-6c2c-4df9-a59e-dc8dec78478f">
 ### Menambahkan Data
 ```python
 INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
@@ -42,12 +42,12 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
-![gambar](web/shell3.png)
+<img width="960" alt="shell3" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/00209f87-5952-4fe7-b761-8f0566ea03e1">
 ### Membuat Program CRUD
 #### Buat folder lab8_php_database pada root directory web server (c:\xampp\htdocs)
-![gambar](web/7.png)
+<img width="960" alt="7" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/87b91e74-f493-4d69-bd7d-d05315724f77">
 #### Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
-![gambar](web/6.png)
+<img width="960" alt="6" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/ac468442-4e59-47f4-ac93-9e28ef705199">
 ### Membuat file koneksi database
 #### Buat file baru dengan nama ```koneksi.php```
 ```python
@@ -126,7 +126,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](web/5.png)
+<img width="960" alt="5" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/806a9ef5-890e-4cf1-8110-fa33bb81061b">
 ### Menambah Data (Create)
 #### Buat file baru dengan nama ```tambah.php```
 ```python
@@ -187,7 +187,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](web/4.png)
+<img width="960" alt="4" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/6b686da3-1683-4714-82f5-54b45dfd00f8">
 ### Mengubah Data (Update)
 #### Buat file baru dengan nama ```ubah.php```
 ```python
@@ -297,8 +297,9 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![gambar](web/3.png)
+<img width="960" alt="3" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/55ef4118-1ca1-4d81-ac30-235ad8bd903a">
 ### Menghapus Data (Delete)
+<img width="960" alt="1" src="https://github.com/yudhapurnama/Lab8Web/assets/115516505/467849dc-a04d-487c-9f29-74c47b51c09d">
 #### Buat file baru dengan nama ```hapus.php```
 ```python
 <?php
